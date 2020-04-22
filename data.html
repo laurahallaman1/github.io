@@ -1,1 +1,68 @@
-data.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel = "stylesheet"
+   type = "text/css"
+   href = "styles.css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <style>
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Visualizations</a></li>
+        <li><a href="Temperature.png">Figure 1 </a></li>
+        <li><a href="Humidity.png">Figure 2</a></li>
+        <li><a href="Cloudiness.png">Figure 3</a></li>
+        <li><a href="Wind.png">Figure 4</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4">Weather Data Visualization</h1>
+      <p class="lead"></p>
+    </div>
+</div>
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="Index.HTML">Home</a></p>
+      <p><a href="visualizations.html">Visualizations</a></p>
+      <p><a href="comparison.html">Comparisons</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Data</h1>
+      <p>Welcome to this study about weather data. Please navigate the links to the left for more information about the study!</p>
+      <hr>
+      <h3>About the Weather Project</h3>
+      <p>For this project, cities within a certain distance from the equator were compared on four different factors: Cloudiness, Humidity, Temperature, and Wind. Each was graphed against the city's latitude to determine whether a correlation exists between this distance from the equator, and these 4 weather factors. Temperature was most strongly correllated, with Humidity coming in second, and Cloudiness and Wind being less correllated. All weather data was sourced from OpenWeatherAPI, a respected source of weather and climate data.  </p>
+    </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <small>&copy; Laura Hallaman.</small>
+</footer>
+
+</body>
+</html>
